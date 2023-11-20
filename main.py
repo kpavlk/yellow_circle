@@ -12,6 +12,7 @@ class Example(QMainWindow):
         self.pushButton.clicked.connect(self.paint)
         self.do_paint = False
 
+
     def paintEvent(self, event):
         if self.do_paint:
             qp = QPainter()
